@@ -97,9 +97,9 @@ Two Power BI reports are made - Credit Card Transaction Report, Credit Card Cust
 ## Project Insights
 ### WOW (Week On Week) change:
 - Revenue increased by 28.8%
-- Total transaction amount and count increased by % and %
-- Customer count increased by %
-### Overview YTD:
+- Total transaction amount and count increased by 35.03% and 3.3%
+- Customer count increased by 12.8%
+### Overview YTD (Year To Date):
 - Overall revenue is 57M
 - Total interest is 8M
 - Total transaction amount is 46M
