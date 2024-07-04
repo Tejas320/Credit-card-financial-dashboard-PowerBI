@@ -8,6 +8,18 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 4. `cust_add`: No of rows=186, No of columns=15. This dataset contains same columns as that of 'customer' dataset. 
 ## Preparing Data for Analysis
 1. Copying Excel data to PostgreSQL database using SQL queries.
-   ### Note: ALL SQL queries are provided in `SQL_Query.sql` file provided above.
-2. Connecting PostgreSQL database to Power BI Desktop.
-3. 
+   ### Note: ALL SQL queries are provided in `SQL-Query.sql` file provided above.
+2. Connecting PostgreSQL database to Power BI Desktop and importing the dataset.
+3. Creating a new column 'Revenue' in 'credit_card' dataset.
+   ```bash
+   Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
+   ```
+4. Created a new column 'week_num2' in 'credit_card' dataset.
+   ```bash
+   week_num2 = WEEKNUM('public cc_detail'[week_start_date])
+   ```
+5. Created a new column 'AgeGroup' in 'customer' dataset.
+   ```bash
+   AgeGroup = SWITCH(TRUE(), 'public cust_detail'[customer_age] < 30, "20-30", 'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40", 'public cust_detail'[customer_age] >= 40 && 'public cust_detail'[customer_age] < 50, "40-50", 'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60", 'public cust_detail'[customer_age] >= 60, "60+", "unknown")
+   ```
+6. 
