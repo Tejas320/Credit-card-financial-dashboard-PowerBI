@@ -76,8 +76,7 @@ Two Power BI reports are made - Credit Card Transaction Report, Credit Card Cust
     ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/4805716b-e2c2-4d5f-8ced-22d0fa48df3f)
 ### Final Credit Card Customer Report Dashboard
 ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/f625ddf8-f355-463f-84d6-0e7707509778)
-
-
+## Project Insights
 
 
 
