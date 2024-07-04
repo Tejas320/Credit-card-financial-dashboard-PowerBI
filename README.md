@@ -89,7 +89,19 @@ Two Power BI reports are made - Credit Card Transaction Report, Credit Card Cust
 ### Final Credit Card Customer Report Dashboard
 ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/f625ddf8-f355-463f-84d6-0e7707509778)
 ## Project Insights
-
+### WOW (Week On Week) change:
+- Revenue increased by 28.8%
+- Total transaction amount and count increased by % and %
+- Customer count increased by %
+### Overview YTD:
+- Overall revenue is 57M
+- Total interest is 8M
+- Total transaction amount is 46M
+- Male customers are contributing more in revenue 31M, females 26M
+- Blue and silver credit cards are contributing to 93% of overall transactions
+- TX, NY and CA are contributing to 68%
+- Overall activation rate is 57.5%
+- Overall delinquent rate is 6.06%
 
 
 
