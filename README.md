@@ -45,13 +45,42 @@ Two Power BI reports are made - Credit Card Transaction Report, Credit Card Cust
    ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/7e1dedd5-9fcc-4bc0-9a52-bf18f4528fae)
 8. Created multiple cards for visulaizing Total Revenue, Total Interest, Total Amount and Total Transaction Count.
    ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/4b02a7a2-466b-440f-8f46-36c7ca48dc3a)
-9. Created multiple slicers of gender, credit card category, quarters, income group, and week_start_date.
+9. Created multiple slicers of gender, credit card category, quarters, income group and week start date.
     ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/3cbbfb6c-b765-4bb1-98fb-b1e93af4b2d0)
     ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/0cb500bc-f02f-41da-976c-a26797e391de)
 ### Final Credit Card Transaction Report Dashboard
 ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/bcb8f178-8dd3-4014-8b1d-42fa8afc24d7)
 ## Credit Card Customer Report
-1. Created a 
+1. Created a Treemap visualizing gender with their total revenue count depicting color codes for each gender to be used throughout this report.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/d162e5fb-d5ae-4664-b87b-366bc256729c)
+2. Created a Line chart visualizing total revenue by week gender wise.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/c5f6f6d7-7cb4-41b7-9095-8cbd7866ca4e)
+3. Created a Table visualizing Sum of Revenue, Sum of interest_earned and Sum of income according to customer job.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/1ce10225-f224-4201-acdf-142fd2a0a570)
+4. Created a Stacked bar chart visualizing Revenue by Age Group gender wise.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/45ea6c0c-bb16-408c-8389-e1b9bcf9ad7a)
+5. Created a Stacked bar chart visualizing Top 5 States according to highest revenue of customers gender wise.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/b5efae5b-ee2d-445e-97d0-915ae1bb13fc)
+6. Created a Stacked bar chart visualizing Revenue by Marital Status of customer gender wise.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/75102df5-8f3c-4873-9b28-f8ff844de0e0)
+7. Created a Stacked bar chart visualizing Revenue by Income Group of customers gender wise.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/db6c6d05-1bda-4384-ae3c-f59b917c2e57)
+8. Created a Stacked bar chart visualizing Revenue by Dependent Count of customers gender wise.
+   ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/301629a2-220a-4ea9-94d5-6c7ff950e7de)
+9. Created a Stacked bar chart visualizing Revenue by Education Level of customers gender wise.
+    ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/962ffa58-377b-403a-9cb8-8b2b48253af6)
+10. Created multiple cards for visualizing Total Revenue, Total Interest, Total Income and Customer Satisfaction Score (CSS).
+    ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/660112ca-e079-43cd-ab2e-b1266e732921)
+11. Created multiple slicers of use chip, credit card category, quarters and week start date.
+    ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/342d5f85-7ff6-4492-a39a-7b2cc8203cfb)
+    ![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/4805716b-e2c2-4d5f-8ced-22d0fa48df3f)
+### Final Credit Card Customer Report Dashboard
+![image](https://github.com/Tejas320/Credit-card-financial-dashboard-PowerBI/assets/73283098/f625ddf8-f355-463f-84d6-0e7707509778)
+
+
+
+
+
 
 
 
