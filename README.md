@@ -1,10 +1,10 @@
 # Credit Card Financial Dashboard Using Power BI
 ## Table of Contents
 1. [Project Objective](#project_objective)
-2. [Dataset Description](#dataset)
-3. [Preparing Data for Analysis](#data_preparation)
+2. [Dataset Description](#dataset_description)
+3. [Preparing Data for Analysis](#preparing_data_for_analysis)
 4. [Visualizations](#visualizations)
-5. [Project Insights](#insights)
+5. [Project Insights](#project_insights)
 ## Project Objective
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
 ## Dataset Description
