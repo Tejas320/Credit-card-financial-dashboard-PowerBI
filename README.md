@@ -18,11 +18,23 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
    ```bash
    week_num2 = WEEKNUM('public cc_detail'[week_start_date])
    ```
-5. Created a new column 'AgeGroup' in 'customer' dataset.
+5. Created a new measure 'Current_week_revenue' in 'credit_card' dataset.
+   ```bash
+   Current_week_revenue = CALCULATE(SUM('public cc_detail'[Revenue]), FILTER(ALL('public cc_detail'), 'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])))
+   ```
+6. Created a new measure 'Previous_week_revenue' in 'credit_card' dataset.
+   ```bash
+   Previous_week_revenue = CALCULATE(SUM('public cc_detail'[Revenue]), FILTER(ALL('public cc_detail'), 'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1))
+   ```
+7. Created a new measure 'WOW_revenue' in 'credit_card' dataset.
+   ```bash
+   WOW_revenue = DIVIDE(([Current_week_revenue] - [Previous_week_revenue]), [Previous_week_revenue])
+   ```
+8. Created a new column 'AgeGroup' in 'customer' dataset.
    ```bash
    AgeGroup = SWITCH(TRUE(), 'public cust_detail'[customer_age] < 30, "20-30", 'public cust_detail'[customer_age] >= 30 && 'public cust_detail'[customer_age] < 40, "30-40", 'public cust_detail'[customer_age] >= 40 && 'public cust_detail'[customer_age] < 50, "40-50", 'public cust_detail'[customer_age] >= 50 && 'public cust_detail'[customer_age] < 60, "50-60", 'public cust_detail'[customer_age] >= 60, "60+", "unknown")
    ```
-6. Created a new column 'IncomeGroup' in 'customer' dataset.
+9. Created a new column 'IncomeGroup' in 'customer' dataset.
    ```bash
    IncomeGroup = SWITCH(TRUE(), 'public cust_detail'[income] < 35000, "Low", 'public cust_detail'[income] >= 35000 && 'public cust_detail'[income] < 70000, "Medium", 'public cust_detail'[income] >= 70000, "High", "unknown")
    ```
